@@ -1,10 +1,10 @@
 -- ==============================================================================
--- Manpower Management System (Labour Placement) - Initial Test Data (Seed Data)
+-- Manpower Management System - Initial Test Data
 -- ==============================================================================
 
 -- 1. Initial Users (Passwords can be hashed in production)
 INSERT INTO users (username, password_hash, full_name, role) VALUES
-('admin', 'admin123', 'System Administrator', 'ADMIN'),
+('admin', 'admin123', 'System Administrator', 'ADMIN')
 ('recruiter1', 'recruit123', 'Sarah Jenkins', 'OPERATOR');
 
 -- 2. Client Organizations

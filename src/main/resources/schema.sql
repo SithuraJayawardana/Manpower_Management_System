@@ -1,7 +1,7 @@
 -- ==============================================================================
--- Manpower Management System (Labour Placement) - Database Schema
--- Normalized to 3NF (Third Normal Form)
--- Compatible with MySQL (WAMP Server)
+-- Manpower Management System - Database Schema
+-- Normalized to 3NF
+-- Compatible with MySQL 
 -- ==============================================================================
 
 -- 1. Users Table (Authentication & User Roles)
