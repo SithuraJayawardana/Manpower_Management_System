@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manpower Management System - GUI</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="app-header">
+        <div class="header-container">
+            <h1 class="brand-title">Labour Placement & Manpower System</h1>
+            <nav class="main-nav" id="main-nav">
+                <!-- Navigation tabs shell: Add your navigation links here -->
+                <button class="nav-btn active" data-view="dashboard">Dashboard</button>
+                <button class="nav-btn" data-view="organizations">Organizations</button>
+                <button class="nav-btn" data-view="labourers">Labourers</button>
+                <button class="nav-btn" data-view="skills">Skills</button>
+                <button class="nav-btn" data-view="requisitions">Requisitions</button>
+                <button class="nav-btn" data-view="placements">Placements</button>
+                <button class="nav-btn" data-view="attendance">Attendance</button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="app-main">
+        <!-- Container for Dynamic GUI Views & CRUD Operations -->
+        <section id="content-container" class="content-container">
+            <div class="welcome-card">
+                <h2>Manpower Management GUI Scaffolding</h2>
+                <p>This layout is scaffolded and ready for your manual CRUD interface implementation.</p>
+                <div class="status-box">
+                    <p><strong>Backend API Target:</strong> <span id="api-target">http://localhost:8080/api</span></p>
+                    <p><strong>Status:</strong> Ready for original component development.</p>
+                </div>
+            </div>
+
+            <!-- TODO: Add your CRUD tables, modals, and submission forms here -->
+        </section>
+    </main>
+
+    <footer class="app-footer">
+        <p>&copy; 2026 Manpower Management System | Academic Mini-Project</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

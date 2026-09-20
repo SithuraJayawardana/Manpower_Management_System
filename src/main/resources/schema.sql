@@ -1,0 +1,2 @@
+-- schema.sql
+-- Write your 3NF normalized DDL table creation scripts here.

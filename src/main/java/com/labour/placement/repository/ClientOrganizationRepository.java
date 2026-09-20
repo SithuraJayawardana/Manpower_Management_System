@@ -1,0 +1,10 @@
+package com.labour.placement.repository;
+
+import com.labour.placement.model.ClientOrganization;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ClientOrganizationRepository extends JpaRepository<ClientOrganization, Long> {
+    // TODO: Define custom query methods once Entity attributes are set.
+}
